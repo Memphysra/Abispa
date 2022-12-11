@@ -1,0 +1,245 @@
+
+body{
+  font-family: "Montserrat"
+}
+h1 {
+   font-weight: 900;
+   font-size: 3.5rem;
+   line-height: 1.5;
+}
+h2 {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #000;
+}
+
+#title {
+  background-color: #FFC600;
+  color: #fff;
+  position: relative;
+
+}
+
+.container-fluid {
+text-align: center;
+}
+
+/* navigation bar */
+.navbar{
+
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #000;
+}
+
+.nav-item{
+  padding: 0 18px;
+  color: #000;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: 400;
+
+}
+
+/* Download buttons */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+
+.title-image{
+  right: 30%;
+  width: 60%;
+  transform: rotate(30deg);
+  position: absolute;
+}
+
+/* Features */
+a{
+  color: #000;
+}
+
+.asd{
+  color: #000;
+}
+.qwe{
+  padding: 5% 4%;
+}
+
+#lower{
+  padding: 20% 0;
+  background-color: #000;
+
+}
+
+#features{
+  text-align: center;
+  background-color: #FFC600;
+  position: relative;
+}
+
+.qaz {
+  color: #000;
+  padding-bottom: 5%;
+}
+.qaz:hover {
+  color: #FF990D;
+}
+
+#testimonials{
+  background-color: #fff;
+  text-align: center;
+  color: #000;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 3%;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+}
+
+.press-logo{
+  margin: 20px 20px 50px;
+  width: 15%;
+}
+
+#pricing{
+  padding: 8%;
+  text-align: center;
+}
+
+.pocket{
+  padding: 3% 2%;
+}
+
+@media  (max-width: 1028px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+#cta{
+  background-color: #FFC600;
+  font-weight: bold;
+  text-align: center;
+  padding: 5% 8% 2%;
+
+
+}
+
+.qwer{
+  color: #000;
+  font-size: 4rem;
+}
+
+#footer{
+  padding: 6% 5%;
+  text-align: center;
+}
+
+.wert{
+  padding: 0% 1% 1%;
+}
+
+/* iletisim */
+
+table{
+    width: 100px;
+}
+th, td{
+    padding: 7px 10px 10px 10px;
+}
+th{
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 90%;
+    border-bottom: 2px solid #111;
+    border-top: 1px solid #999;
+    background-color: #FFC600;
+    color: seashell;
+}
+tr.odd{
+    background-color: #efefef;
+}
+tr:hover{
+    background-color: #c3e6e5;
+}
+
+.mapouter{
+
+    display: inline;
+}
+
+.gmap_canvas{
+    overflow:hidden;background:none!important;height:200px;width:300px;
+}
+
+/* register */
+
+form{
+    padding-top: 100px;
+    width: 500px;
+    margin: 10px auto 25px auto;
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 120px;
+    border: 1px solid #d6d6d6;
+    padding: 2px;
+    outline: none;}
+input[type="text"]:focus,input[type="text"]:hover {
+    background-color: #d0e2f0;
+    border: 1px solid #999999;}
+input[type="submit"] {
+    border: 1px solid #006633;
+    background-color: #009966;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;}
+input[type="submit"]:hover {
+    border: 1px solid #fff;
+    background-color: #000;
+    color: #ffffff;
+    cursor: pointer;}
+.title {
+    float: left;
+    width: 160px;
+    clear: left;}
+.submit {
+    width: 310px;
+    text-align: right;}
+
+/* hakkimizda */
+.hakk{
+
+}
